@@ -1,0 +1,73 @@
+
+ *{
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ #Terrain{
+     display: none;
+     width: 100%;
+     background-image: url("game.svg");
+ }
+
+ #menu{
+    background: black;
+    width: 100%;
+    height: 1105px;
+    display: block;
+ }
+ .glavpole{
+     color: white;
+     font-size: 35px;
+    letter-spacing: 5px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     display: flex;
+ }
+
+ .form_log{
+     width: 450px;
+     height: 700px;
+
+    margin: 100px 0px 0px 100px;
+ }
+
+ .nickname{
+     background: black;
+     width: 200px;
+     border: 0;
+     border-bottom: 2px solid white;
+     color: white;
+     font-size: 30px;
+     outline:none;
+     margin: 10px 0px 30px 0;
+ }
+ .instrukt{
+    font-size: 20px;
+ }
+#startgame{
+border: none;
+    width: 200px;
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 45px;
+
+    cursor: pointer;
+    font-size: 30px;
+    margin: 50px 0 0 0 ;
+    transition: all 0.5s ease-in;
+}
+
+#startgame:hover{
+    background:  black;
+    color: white;
+}
+
+#absol{
+    display: none;
+    position:absolute;
+    color: white;
+    font-size: 25px;
+   letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
