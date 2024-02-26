@@ -1,13 +1,29 @@
 var terrain =document.getElementById('Terrain');
 var menu = document.getElementById('menu');
 var absol = document.getElementById('absol');
+let input = document.getElementById('nickname');
+let element = document.getElementById('parag');
+let timerElement = document.getElementById('timer');
+let seconds = 0;
+let intervalId;
 
 function strat(){
 
     menu.style.display = 'none';
+
     absol.style.display = 'block';
+    
     terrain.style.display = 'block';
+    element.innerHTML = input.value
+ 
+    intervalId = setInterval(function() {
+        seconds++;
+        timerElement.textContent = ''+seconds  ;
+    }, 1000);
+
 }
+
+
 
 
 
